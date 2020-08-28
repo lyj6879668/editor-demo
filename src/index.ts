@@ -1,1 +1,6 @@
-document.getElementById('app').innerHTML = 'hello world'
+import './assets/style/common.less'
+
+import Editor from './editor/index'
+
+const editor = new Editor('#app')
+editor.create()
